@@ -24,7 +24,7 @@
             return $this->descricao;
         }
         public function setDescricao($d){
-            $this->nome = $d;
+            $this->descricao = $d;
         }
     }
 
