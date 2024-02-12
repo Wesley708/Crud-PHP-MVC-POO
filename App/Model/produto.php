@@ -1,8 +1,16 @@
 <?php
 
+    namespace App\Model;
+
     class Produto{
-        private $nome;
-        private $descricao;
+        private $id, $nome, $descricao;
+
+        public function getId(){
+            return $this->id;
+        }
+        public function setId($i){
+            $this->id = $i;
+        }
 
         public function getNome(){
             return $this->nome;
